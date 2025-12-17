@@ -85,13 +85,13 @@ body {
 
 /* ===== CONTACT ===== */
 .contact {
-  min-height: 100vh;
   padding: 80px 20px;
   background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 
 .contact-text {
   text-align: center;
@@ -133,4 +133,15 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+/* ===== フォーム入力欄を確実に表示 ===== */
+.contact-form input,
+.contact-form textarea {
+  margin-top: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fff;   /* ← これが重要 */
+  color: #111;
 }
