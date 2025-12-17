@@ -65,3 +65,51 @@ p {
 html {
   scroll-behavior: smooth;
 }
+/* ===== お問い合わせフォーム ===== */
+
+.contact {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-text {
+  margin: 16px 0 40px;
+  text-align: center;
+  color: #555;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #f97316;
+  box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
+}
