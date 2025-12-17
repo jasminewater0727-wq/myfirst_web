@@ -128,3 +128,6 @@ html {
   text-align: center;
   padding: 0 20px;
 }
+.hero {
+  background: blue;
+}
