@@ -1,98 +1,72 @@
-/* ===== 共通 ===== */
-body {
+/* ===== リセット ===== */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-    "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
-  color: #333;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* ===== HERO ===== */
-.hero {
-  min-height: 100vh;
-  background: #f97316; /* オレンジ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
+/* ===== 全体 ===== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  color: #1f2937;
+  background: #fff;
 }
-/* ===== HERO 全体 ===== */
+
+/* ===== HERO（背景オレンジ） ===== */
 .hero {
   min-height: 100vh;
   background: #f97316; /* 濃いオレンジ */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 24px;
 }
 
-/* ===== 中央の白っぽいカード ===== */
+/* ===== 中央カード（薄いオレンジ） ===== */
 .hero-box {
-  background: #fff7ed; /* 薄いオレンジ（白寄り） */
-  padding: 48px 32px;
-  border-radius: 16px;
-  max-width: 720px;
+  background: #fff7ed; /* 薄いオレンジ */
+  padding: 56px 40px;
+  border-radius: 20px;
+  max-width: 760px;
   width: 100%;
   text-align: center;
-
-  /* ふわっと浮かせる */
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.18);
 }
 
-/* タイトル */
-.hero-title {
-  font-size: 2.2rem;
-  margin-bottom: 24px;
-  color: #1f2937;
-}
-
-/* テキスト */
-.hero-text {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-bottom: 32px;
-  color: #374151;
-}
-
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-  text-align: center;
-}
-
+/* HERO文字 */
 .hero-title {
   font-size: 2.4rem;
   line-height: 1.4;
-  margin: 0;
+  margin-bottom: 24px;
 }
 
 .hero-text {
   font-size: 1.1rem;
   line-height: 1.8;
-  margin: 0;
+  margin-bottom: 36px;
 }
 
-/* CTA */
+/* ===== CTA ===== */
 .cta-button {
   display: inline-block;
-  padding: 14px 28px;
-  background: #fff;
-  color: #f97316;
-  font-weight: bold;
+  padding: 14px 32px;
+  background: #f97316;
+  color: #fff;
   border-radius: 999px;
+  font-weight: bold;
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
 }
 
 /* ===== MAIN ===== */
 .container {
-  max-width: 800px;
+  max-width: 820px;
   margin: 0 auto;
   padding: 80px 20px;
 }
@@ -154,6 +128,7 @@ body {
   font-size: 0.8rem;
   margin-left: 6px;
 }
+
 /* ===== リンクの青を消す ===== */
 a {
   color: inherit;
