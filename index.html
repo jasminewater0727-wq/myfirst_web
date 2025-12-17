@@ -1,111 +1,93 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      訪問看護サービス｜任せることは、逃げることじゃない
-    </title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>訪問看護サービス｜想いと尊厳を守るケア</title>
 
-    <!-- CSS読み込み -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 
-    <!-- スムーズスクロール -->
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
-  </head>
+  <!-- スムーズスクロール -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
 
-  <body>
-    <main class="container">
-      <!-- ===================== -->
-      <!-- ファーストビュー -->
-      <!-- ===================== -->
-      <section class="hero">
-        <h1>任せることは、逃げることじゃない。</h1>
-        <p class="hero-sub">
-          親の介護をすべて背負わなくても、<br />
-          親の尊厳と、あなたの想いは守れます。
-        </p>
+<body>
 
-        <!-- CTA（下へスクロール） -->
-        <a href="#contact" class="cta-button">
-          まずは話を聞いてみる
-        </a>
-      </section>
+  <!-- ================= HERO ================= -->
+  <header class="hero">
+    <h1 class="hero-title">
+      任せることは、<br />
+      逃げることじゃない。
+    </h1>
 
-      <!-- ===================== -->
-      <!-- 共感セクション -->
-      <!-- ===================== -->
-      <section class="section">
-        <h2>こんな気持ち、ありませんか？</h2>
-        <ul class="list">
-          <li>介護を人に任せることに、どこか後ろめたさがある</li>
-          <li>「ちゃんとやっている」と胸を張れない</li>
-          <li>親の尊厳が守られているか、不安になる</li>
-          <li>自分の生活や気持ちが、少しずつ削られている</li>
-        </ul>
-      </section>
+    <p class="hero-text">
+      親の介護をすべて背負わなくても、<br />
+      親の尊厳と、あなたの想いは守れます。
+    </p>
 
-      <!-- ===================== -->
-      <!-- 課題の本質 -->
-      <!-- ===================== -->
-      <section class="section">
-        <h2>
-          介護で一番削られていくのは、<br />
-          体力よりも「自尊感情」です
-        </h2>
-        <p>
-          親は「世話をされる側」になることで、<br />
-          自分らしさを失っていきます。<br /><br />
-          子は「任せる側」になることで、<br />
-          罪悪感や迷いを抱え続けます。
-        </p>
-      </section>
+    <!-- CTA：フォームへスクロール -->
+    <a href="#contact" class="cta-button">
+      ご相談はこちら
+    </a>
+  </header>
 
-      <!-- ===================== -->
-      <!-- サービスの考え方 -->
-      <!-- ===================== -->
-      <section class="section">
-        <h2>私たちは「関係性」を支える訪問看護です</h2>
-        <p>
-          私たちは、介護を「代わりにやる人」ではありません。<br />
-          ご本人の尊厳と、ご家族の想いをつなぐ存在でありたいと
-          考えています。<br /><br />
-          看護職者として、医療だけでなく、感情にも寄り添います。
-        </p>
-      </section>
-    </main>
- <!-- ===================== -->
-<!-- 最下部：ご相談フォーム -->
-<!-- ===================== -->
-<section id="contact" class="contact">
-  <h2>ご相談はこちら</h2>
-  <p class="contact-text">
-    介護のこと、気持ちの整理だけでも大丈夫です。<br />
-    無理に決断する必要はありません。
-  </p>
+  <!-- ================= MAIN ================= -->
+  <main class="container">
 
-  <form class="contact-form">
-    <label>
-      お名前（任意）
-      <input type="text" placeholder="例：山田 花子" />
-    </label>
+    <section class="section">
+      <h2>こんな気持ち、ありませんか？</h2>
+      <ul class="list">
+        <li>他人に任せることに、どこか罪悪感がある</li>
+        <li>でも、全部を自分で抱えるのは苦しい</li>
+        <li>親にも、自分にも、後悔したくない</li>
+      </ul>
+    </section>
 
-    <label>
-      ご相談内容
-      <textarea
-        rows="5"
-        placeholder="今感じていることを、自由に書いてください"
-      ></textarea>
-    </label>
+    <section class="section">
+      <h2>私たちが大切にしていること</h2>
+      <p>
+        私たちは「介護を代わりにやる人」ではありません。<br />
+        本人の尊厳と、家族の想いをつなぐ存在でありたいと考えています。<br /><br />
+        医療だけでなく、感情にも寄り添う。<br />
+        それが、私たちの訪問看護です。
+      </p>
+    </section>
 
-    <button type="submit" class="cta-button">
-      この内容で相談する
-    </button>
-  </form>
-</section>
+  </main>
 
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="contact">
+    <h2>ご相談はこちら</h2>
 
+    <p class="contact-text">
+      介護のこと、気持ちの整理だけでも大丈夫です。<br />
+      無理に決断する必要はありません。
+    </p>
+
+    <form class="contact-form">
+      <label>
+        お名前（任意）
+        <input type="text" placeholder="例：山田 花子" />
+      </label>
+
+      <label>
+        ご相談内容
+        <textarea
+          rows="5"
+          placeholder="今感じていることを、自由に書いてください"
+        ></textarea>
+      </label>
+
+      <button type="submit" class="cta-button">
+        この内容で相談する
+      </button>
+    </form>
+  </section>
+
+</body>
+</html>
