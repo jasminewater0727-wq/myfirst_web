@@ -1,3 +1,7 @@
+body {
+  background: red !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -77,7 +81,7 @@ body {
   font-weight: bold;
   border-radius: 999px;
   text-decoration: none;
-  
+
    /* 動きのため */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 8px 20px rgba(255, 152, 0, 0.3);
