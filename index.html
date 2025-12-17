@@ -16,15 +16,15 @@
 
 <body>
 
-  <!-- ===== HERO ===== -->
+  <!-- ================= HERO ================= -->
   <header class="hero">
     <div class="hero-box">
-      <h1 class="hero-title">
+      <h1>
         任せることは、<br />
         逃げることじゃない。
       </h1>
 
-      <p class="hero-text">
+      <p>
         親の介護をすべて背負わなくても、<br />
         親の尊厳と、あなたの想いは守れます。
       </p>
@@ -35,12 +35,12 @@
     </div>
   </header>
 
-  <!-- ===== MAIN ===== -->
+  <!-- ================= MAIN ================= -->
   <main class="container">
 
     <section class="section">
       <h2>こんな気持ち、ありませんか？</h2>
-      <ul class="list">
+      <ul>
         <li>他人に任せることに、どこか罪悪感がある</li>
         <li>でも、全部を自分で抱えるのは苦しい</li>
         <li>親にも、自分にも、後悔したくない</li>
@@ -59,7 +59,7 @@
 
   </main>
 
-  <!-- ===== CONTACT ===== -->
+  <!-- ================= CONTACT ================= -->
   <section id="contact" class="contact">
     <h2>ご相談はこちら</h2>
 
@@ -71,4 +71,24 @@
     <form class="contact-form">
       <label>
         お名前（ペンネーム可）
-        <span
+        <span class="required">※必須</span>
+        <input type="text" required placeholder="例：山田 花子" />
+      </label>
+
+      <label>
+        ご相談内容
+        <textarea
+          rows="5"
+          placeholder="今感じていることを、自由に書いてください"
+        ></textarea>
+      </label>
+
+      <button type="submit" class="cta-button">
+        この内容で相談する
+      </button>
+    </form>
+  </section>
+
+</body>
+</html>
+
