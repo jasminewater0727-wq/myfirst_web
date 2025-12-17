@@ -114,6 +114,7 @@ html {
   box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
 }
 .required {
-  color: #f97316; /* オレンジ */
+  color: #f97316;
   font-size: 0.8rem;
+  margin-left: 4px;
 }

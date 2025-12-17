@@ -71,9 +71,10 @@
 
     <form class="contact-form">
       <label>
-        お名前（ペンネーム可）<span class="required">※必須</span>
-        <input type="text" placeholder="例：山田 花子" required />
-      </label>
+  お名前 <span class="required">※必須</span>
+  <input type="text" placeholder="例：山田 花子" required />
+</label>
+
 
       <label>
         ご相談内容
@@ -91,3 +92,22 @@
 
 </body>
 </html>
+.hero {
+  min-height: 100vh;
+  background: #f97316; /* オレンジ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 縦中央 */
+  align-items: center;     /* 横中央 */
+  text-align: center;
+  padding: 0 20px;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
