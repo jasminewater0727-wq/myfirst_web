@@ -117,3 +117,8 @@ body {
   font-size: 0.8rem;
   margin-left: 6px;
 }
+/* ===== リンクの青を消す ===== */
+a {
+  color: inherit;
+  text-decoration: none;
+}
