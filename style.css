@@ -117,3 +117,15 @@ body {
   font-size: 0.8rem;
   margin-left: 6px;
 }
+/* ===== 相談フォームを中央にする ===== */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
