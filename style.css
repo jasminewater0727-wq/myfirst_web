@@ -118,3 +118,13 @@ html {
   font-size: 0.8rem;
   margin-left: 4px;
 }
+.hero {
+  min-height: 100vh;
+  background: #f97316;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 縦中央 */
+  align-items: center;     /* 横中央 */
+  text-align: center;
+  padding: 0 20px;
+}
