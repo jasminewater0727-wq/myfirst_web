@@ -20,20 +20,21 @@
 
   <!-- ================= HERO ================= -->
   <header class="hero">
-    <h1 class="hero-title">
-      任せることは、<br />
-      逃げることじゃない。
-    </h1>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        任せることは、<br />
+        逃げることじゃない。
+      </h1>
 
-    <p class="hero-text">
-      親の介護をすべて背負わなくても、<br />
-      親の尊厳と、あなたの想いは守れます。
-    </p>
+      <p class="hero-text">
+        親の介護をすべて背負わなくても、<br />
+        親の尊厳と、あなたの想いは守れます。
+      </p>
 
-    <!-- CTA：フォームへスクロール -->
-    <a href="#contact" class="cta-button">
-      ご相談はこちら
-    </a>
+      <a href="#contact" class="cta-button">
+        ご相談はこちら
+      </a>
+    </div>
   </header>
 
   <!-- ================= MAIN ================= -->
@@ -71,10 +72,10 @@
 
     <form class="contact-form">
       <label>
-  お名前(ペンネーム可) <span class="required">※必須</span>
-  <input type="text" placeholder="例：山田 花子" required />
-</label>
-
+        お名前（ペンネーム可）
+        <span class="required">※必須</span>
+        <input type="text" placeholder="例：山田 花子" required />
+      </label>
 
       <label>
         ご相談内容
@@ -92,22 +93,3 @@
 
 </body>
 </html>
-.hero {
-  min-height: 100vh;
-  background: #f97316; /* オレンジ */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* 縦中央 */
-  align-items: center;     /* 横中央 */
-  text-align: center;
-  padding: 0 20px;
-}
-.hero h1 {
-  font-size: 2.2rem;
-  margin-bottom: 24px;
-}
-
-.hero p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-}

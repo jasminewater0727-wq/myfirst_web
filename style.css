@@ -1,72 +1,78 @@
+/* ===== 共通 ===== */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  background: #fff6ee;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
   color: #333;
 }
 
-.container {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 80px 20px;
+/* ===== HERO ===== */
+.hero {
+  min-height: 100vh;
+  background: #f97316; /* オレンジ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
 }
 
-h1 {
-  color: #f97316; /* オレンジ */
-  font-size: 2.2rem;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.4rem;
   line-height: 1.4;
+  margin: 0;
 }
 
-p {
+.hero-text {
   font-size: 1.1rem;
   line-height: 1.8;
-  margin-top: 24px;
-}
-@media (max-width: 600px) {
-  .container {
-    padding: 48px 16px;
-  }
-
-  h1 {
-    font-size: 1.7rem;
-  }
-}
-.container {
-  animation: fadeUp 1s ease-out;
+  margin: 0;
 }
 
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+/* CTA */
 .cta-button {
   display: inline-block;
-  margin-top: 48px;
-  padding: 16px 32px;
-  background: #f97316;
-  color: white;
-  text-decoration: none;
-  font-size: 1.1rem;
+  padding: 14px 28px;
+  background: #fff;
+  color: #f97316;
   font-weight: bold;
   border-radius: 999px;
+  text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-html {
-  scroll-behavior: smooth;
-}
-/* ===== お問い合わせフォーム ===== */
 
+/* ===== MAIN ===== */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.section {
+  margin-bottom: 80px;
+}
+
+.section h2 {
+  margin-bottom: 24px;
+}
+
+.list {
+  padding-left: 20px;
+}
+
+/* ===== CONTACT ===== */
 .contact {
   min-height: 100vh;
   padding: 80px 20px;
@@ -77,9 +83,9 @@ html {
 }
 
 .contact-text {
-  margin: 16px 0 40px;
   text-align: center;
   color: #555;
+  margin-bottom: 40px;
 }
 
 .contact-form {
@@ -94,7 +100,6 @@ html {
   display: flex;
   flex-direction: column;
   font-size: 0.9rem;
-  color: #444;
 }
 
 .contact-form input,
@@ -103,31 +108,12 @@ html {
   padding: 12px;
   font-size: 1rem;
   border-radius: 8px;
-  border: 1px solid #ddd;
-  font-family: inherit;
+  border: 1px solid #ccc;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-  outline: none;
-  border-color: #f97316;
-  box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
-}
+/* 必須表示 */
 .required {
   color: #f97316;
   font-size: 0.8rem;
-  margin-left: 4px;
-}
-.hero {
-  min-height: 100vh;
-  background: #f97316;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* 縦中央 */
-  align-items: center;     /* 横中央 */
-  text-align: center;
-  padding: 0 20px;
-}
-.hero {
-  background: blue;
+  margin-left: 6px;
 }
