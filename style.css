@@ -15,6 +15,43 @@ body {
   align-items: center;
   padding: 0 20px;
 }
+/* ===== HERO 全体 ===== */
+.hero {
+  min-height: 100vh;
+  background: #f97316; /* 濃いオレンジ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* ===== 中央の白っぽいカード ===== */
+.hero-box {
+  background: #fff7ed; /* 薄いオレンジ（白寄り） */
+  padding: 48px 32px;
+  border-radius: 16px;
+  max-width: 720px;
+  width: 100%;
+  text-align: center;
+
+  /* ふわっと浮かせる */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* タイトル */
+.hero-title {
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+  color: #1f2937;
+}
+
+/* テキスト */
+.hero-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 32px;
+  color: #374151;
+}
 
 .hero-content {
   display: flex;
