@@ -129,3 +129,15 @@ body {
   max-width: 640px;
   margin: 0 auto;
 }
+/* ===== スマホ用：ヒーロー文字サイズ調整 ===== */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.6rem;   /* 見出しを少し小さく */
+    line-height: 1.4;
+  }
+
+  .hero-text {
+    font-size: 0.95rem;  /* 説明文を少し小さく */
+    line-height: 1.7;
+  }
+}
